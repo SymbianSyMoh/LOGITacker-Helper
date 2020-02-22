@@ -119,7 +119,7 @@ flashPayloads
 
 elif [[ $1 = "flashsummary" ]]; then
 logitackerCheck
-flashSummarySteps
+flashSummary
 
 else
 helpTacker
