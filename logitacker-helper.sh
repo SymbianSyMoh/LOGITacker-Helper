@@ -110,7 +110,7 @@ screen -S $scrName -p 0 -X stuff "devices storage list^M"
 
 elif [[ $1 = "flashsettings" ]]; then
 logitackerCheck
-flashNormalSettings
+flashSettings
 screen -S $scrName -p 0 -X stuff "options show^M"
 
 elif [[ $1 = "flashpayloads" ]]; then
